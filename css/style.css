@@ -103,3 +103,15 @@ header {
   float: right;
   padding: 30px;
 }
+
+/* voci menu in orizzontale */
+li {
+  display: inline-block;
+}
+
+/* stile voci menu */
+li a {
+  text-decoration: none;
+  color: lightblue;
+  font-size: 20px;
+}
