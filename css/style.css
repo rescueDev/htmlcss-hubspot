@@ -6,8 +6,34 @@
  }
 
 /* clearfix float */
-.clearfix {
+/* .clearfix {
   content: "";
   display: table;
   clear: both;
+} */
+
+/* contenitore header e nav */
+.header-container {
+  width: 100%;
+  margin: 0 auto;
+  /* debug */
+  background-color: red;
+  min-height: 100px;
+  /* fine debug */
+ }
+
+header {
+    /* debug */
+  background-color: yellow;
+  height: 80px;
+  border-bottom: 1px solid black;
+  /* fine-debug */
+}
+
+.initial-bar {
+  margin-left: 10%;
+  margin-right: 10%;
+  /* debug */
+  height: 50px;
+  background-color: pink;
 }
