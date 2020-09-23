@@ -35,7 +35,7 @@ header {
 
 /* stile e struttura barra menu */
 .initial-bar {
-  padding: 15px;
+  padding: 1px;
   font-size: 18px;
   /* debug */
   height: 80px;
@@ -73,13 +73,33 @@ header {
   text-decoration: none;
 }
 
+/* clearfix container nav */
+.nav-container.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* barra navigazione */
-.nav-container{
-  margin-left: 10%;
-  margin-right: 10%;
+.nav-container {
+  width: 100%;
 
   /* debug */
   background-color: purple;
   min-height: 80px;
   /* fine debug */
+}
+
+/* contenitore logo hubspot su nav */
+.logo-container {
+  margin-left: 10%;
+  float: left;
+  padding: 30px;
+}
+
+/* menu a dx di nav */
+.menu-container {
+  margin-right: 10%;
+  float: right;
+  padding: 30px;
 }
