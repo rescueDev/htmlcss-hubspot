@@ -32,17 +32,42 @@ header {
   /* fine-debug */
 }
 
+/* stile e struttura barra menu */
 .initial-bar {
-  margin-left: 10%;
-  margin-right: 10%;
-  padding: 5px;
+  padding: 15px;
   font-size: 18px;
   /* debug */
-  height: 50px;
-  background-color: pink;
+  height: 80px;
+  background-color: lightblue;
   /* fine-debug */
 }
 
-.login {
+/* stacco */
+#language::after {
+  content: "  |";
+}
+
+/* struttura barra menu lato destro */
+.left-side {
+  margin-left: 10%;
+  float: left;
+  padding: 30px;
+}
+
+/* struttura barra menu lato destro */
+.right-side {
+  margin-right: 10%;
   float: right;
+  padding: 30px;
+}
+
+/* stile e struttura parte login menu */
+.right-side a {
+  margin:5px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: orange;
+  color:white;
+  padding: 5px;
+  text-decoration: none;
 }
