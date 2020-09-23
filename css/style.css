@@ -1,5 +1,5 @@
 /* regole generali */
- */ {
+ * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -7,7 +7,7 @@
  }
 
 /* clearfix float */
- .header-container.clearfix {
+.header-container.clearfix {
   content: "";
   display: table;
   clear: both;
@@ -19,10 +19,11 @@
   margin: 0 auto;
   /* debug */
   background-color: red;
-  min-height: 100px;
+  min-height: 500px;
   /* fine debug */
  }
 
+/* header */
 header {
   width: 100%
     /* debug */
@@ -70,4 +71,15 @@ header {
   color:white;
   padding: 5px;
   text-decoration: none;
+}
+
+/* barra navigazione */
+.nav-container{
+  margin-left: 10%;
+  margin-right: 10%;
+
+  /* debug */
+  background-color: purple;
+  min-height: 80px;
+  /* fine debug */
 }
