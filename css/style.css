@@ -18,7 +18,7 @@
   width: 100%;
   margin: 0 auto;
   /* debug */
-  background-color: red;
+  /* background-color: red; */
   min-height: 500px;
   /* fine debug */
  }
@@ -28,8 +28,8 @@ header {
   width: 100%
     /* debug */
   background-color: yellow;
-  height: 80px;
-  border-bottom: 1px solid black;
+  min-height: 80px;
+  /* border-bottom: 1px solid black; */
   /* fine-debug */
 }
 
@@ -37,8 +37,10 @@ header {
 .initial-bar {
   padding: 1px;
   font-size: 18px;
+  border-bottom: 2px solid black;
+  margin-bottom: 0;
   /* debug */
-  height: 80px;
+  min-height: 80px;
   background-color: lightblue;
   /* fine-debug */
 }
@@ -83,8 +85,7 @@ header {
 /* barra navigazione */
 .nav-container {
   width: 100%;
-
-  /* debug */
+    /* debug */
   background-color: purple;
   min-height: 80px;
   /* fine debug */
@@ -94,7 +95,7 @@ header {
 .logo-container {
   margin-left: 10%;
   float: left;
-  padding: 30px;
+  /* padding: 30px; */
 }
 
 /* menu a dx di nav */
@@ -114,4 +115,6 @@ li a {
   text-decoration: none;
   color: lightblue;
   font-size: 20px;
+  margin-right: 2px;
+  padding-right: 10px;
 }
