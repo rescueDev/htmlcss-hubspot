@@ -3,14 +3,15 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
  }
 
 /* clearfix float */
-/* .clearfix {
+ .header-container.clearfix {
   content: "";
   display: table;
   clear: both;
-} */
+}
 
 /* contenitore header e nav */
 .header-container {
@@ -23,6 +24,7 @@
  }
 
 header {
+  width: 100%
     /* debug */
   background-color: yellow;
   height: 80px;
@@ -33,7 +35,14 @@ header {
 .initial-bar {
   margin-left: 10%;
   margin-right: 10%;
+  padding: 5px;
+  font-size: 18px;
   /* debug */
   height: 50px;
   background-color: pink;
+  /* fine-debug */
+}
+
+.login {
+  float: right;
 }
