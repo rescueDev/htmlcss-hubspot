@@ -333,13 +333,13 @@ main {
   min-height: 600px;
 }
 
+/* margini destri prime due colonne */
 .hub-type1, .hub-type2 {
   margin-right: 30px;
 }
 
 
-/* margini testo dentro ogni hub */
-
+/* margini elementi dentro ogni hub */
 .three-columns h3 {
   margin:10px;
 }
@@ -376,9 +376,31 @@ main {
   padding: 15px;
 }
 
-.griglia-container {
+/* contenitore sezione 4 blu */
+.container-sezione4 {
   width: 100%;
-  /* debug */
   background-color: #00abb6;
+  /* debug */
   min-height: 600px;
+}
+
+#testo-statistiche {
+  width: 80%;
+  margin:20px auto;
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+}
+
+#testo-statistiche h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+#griglia-statistiche {
+  width: 80%;
+  margin:20px auto;
+  /* debug */
+  background-color: red;
+  min-height: 300px;
 }
