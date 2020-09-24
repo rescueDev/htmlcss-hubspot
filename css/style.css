@@ -186,3 +186,30 @@ aside #nota {
   background-color: #afebe4;
   height: 50px;
 }
+
+/* parte centrale con bordi sx e dx */
+main {
+  margin-left:10%;
+  margin-right:10%;
+  /* debug */
+  background-color: orange;
+  min-height: 600px;
+}
+
+/* sezione 2 */
+#sezione2 {
+  margin-top: 20px;
+  max-width: 100%;
+  text-align: center;
+  /* debug */
+  background-color: yellow;
+  min-height: 300px;;
+  /* fine-debug */
+}
+
+/* immagine cubo rubik dimensioni */
+section img {
+  margin-top: 10px;
+  width: 200px;
+  height: 150px;
+}
