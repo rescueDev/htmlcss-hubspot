@@ -101,9 +101,6 @@ header {
   float: left;
 }
 
-.logo-container img {
-  margin-left: 0;
-}
 
 /* menu a dx di nav */
 .menu-container {
@@ -168,15 +165,24 @@ aside a {
   border-radius: 5px;
 }
 
+/* posizionamento paragrafo banner */
 aside #marketing {
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 10px;
 }
 
+/* posizionamento nota pie pagina banner */
 aside #nota {
   font-size: 12px;
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 10px;
+}
+
+/* stile divisore sezione1 */
+.divisore-sezione1 {
+  border-bottom:4px solid #33475b;
+  background-color: #afebe4;
+  height: 50px;
 }
