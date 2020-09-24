@@ -380,6 +380,7 @@ main {
 .container-sezione4 {
   width: 100%;
   background-color: #00abb6;
+  margin-top: 50px;
   /* debug */
   min-height: 600px;
 }
