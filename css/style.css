@@ -17,13 +17,18 @@
 .header-container {
   width: 100%;
   margin: 0 auto;
+
   /* debug */
 
-  background-color: red;
+  /* background-color: red; */
   /* min-height: 500px; */
 
   /* fine debug */
  }
+
+body {
+  background-color: #f4f9fd;
+  }
 
 /* header */
 header {
@@ -193,7 +198,7 @@ main {
   margin-left:10%;
   margin-right:10%;
   /* debug */
-  background-color: orange;
+  /* background-color: orange; */
   min-height: 600px;
 }
 
@@ -203,7 +208,7 @@ main {
   max-width: 100%;
   text-align: center;
   /* debug */
-  /* background-color: yellow; */
+  background-color: #f4f9fd;
   min-height: 300px;;
   /* fine-debug */
 }
@@ -220,10 +225,12 @@ main {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 30px;
-  padding:30px;
+  padding:40px;
   max-width: 100%;
+  border:1px solid lightgrey;
+  border-radius: 5px;
   /* debug */
-  background-color: purple;
+  background-color: white;
   min-height: 300px;
   /* fine-debug */
 }
@@ -235,7 +242,6 @@ main {
   margin-right: 10%;
   /* padding: 25px; */
   float: left;
-  /* display: inline-block; */
 }
 
 /* immagine crm */
@@ -257,8 +263,20 @@ main {
   padding: 15px;
 }
 
+/* sottosezione testo 2.1 */
 .crm-text {
-  /* display: inline-block; */
   width: calc(100% - 48%);
   float: left;
+}
+
+/* icone check */
+.fas.fa-check-circle {
+  margin-right: 10px;
+  color: #fe775a;
+}
+
+/* margini singole feature */
+.feature {
+  font-size: 14px;
+  margin-right: 20px;
 }
