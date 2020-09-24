@@ -213,7 +213,7 @@ main {
   margin-left:10%;
   margin-right:10%;
   /* debug */
-  background-color: orange;
+  /* background-color: orange; */
   min-height: 600px;
 }
 
@@ -286,7 +286,12 @@ main {
 .crm-text {
   width: calc(100% - 48%);
   float: left;
+  text-align: left;
 }
+
+/* .crm-text h4 {
+  margin-left: 10px;
+} */
 
 /* icone check */
 .fas.fa-check-circle {
@@ -303,9 +308,11 @@ main {
 /* sezione tre colonne */
 .three-columns {
   max-width:100%;
-  margin: 40px 10% 40px;
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
   /* debug */
-  background-color: green;
+  /* background-color: green; */
   min-height: 600px;
 }
 
@@ -317,18 +324,57 @@ main {
 }
 
 /* dimensione colonne hub */
-.hub-type {
-  width: calc(100% / 3);
+.hub-type1, .hub-type2, .hub-type3 {
+  max-width: calc((100% / 3) - 20px);
   float: left;
   border:1px solid lightgrey;
+  border-radius: 5px;
   text-align: center;
   padding: 20px;
+  background-color: white;
   /* debug */
+  min-height: 600px;
 }
 
-/* immagine hub marketing */
-.hub-type img {
+.hub-type1, .hub-type2 {
+  margin-right: 30px;
+}
+
+
+/* margini testo dentro ogni hub */
+
+.three-columns h3 {
+  margin:10px;
+}
+
+.three-columns p {
+  margin:20px;
+}
+
+.three-columns hr {
+  margin:10px;
+}
+
+.three-columns h4 {
+  margin:20px;
+}
+
+.three-columns img {
   width: 180px;
   height: 90px;
   margin-bottom: 20px;
+}
+
+/* Learn more button */
+.three-columns a {
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 100px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  background-color: #fe775a;
+  border-radius: 5px;
+  padding: 15px;
 }
