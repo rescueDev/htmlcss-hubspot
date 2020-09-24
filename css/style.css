@@ -397,10 +397,71 @@ main {
   margin-bottom: 25px;
 }
 
-#griglia-statistiche {
+/* griglia blu statistiche sezione 4 */
+.griglia-statistiche {
   width: 80%;
   margin:20px auto;
+  padding: 40px;
   /* debug */
-  background-color: red;
+  /* background-color: red; */
   min-height: 300px;
+}
+
+/* clearfix griglia statistiche */
+.griglia-statistiche.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* quadrati griglia statistiche */
+.stat {
+  float:left;
+  width: calc(100% / 4);
+  text-align: center;
+  padding: 20px;
+  border:1px solid white;
+  /* debug */
+  /* background-color: yellow; */
+  min-height: 150px;
+}
+
+/* rimozione bordi */
+.stat.border1, .stat.border5 {
+  border-left: none;
+}
+
+.stat.border1, .stat.border4 {
+  border-top:none;
+}
+
+.stat.border2, .stat.border3 {
+  border-top:none;
+}
+
+.stat.border4, .stat.border8 {
+  border-right: none;
+}
+
+.stat.border5, .stat.border6, .stat.border7, .stat.border8 {
+  border-bottom:none;
+}
+
+/* immagini griglia */
+.stat img {
+  width: 40px;
+  height: 40px;
+}
+
+.stat h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin:2px;
+  color:white;
+}
+
+.stat p {
+  margin: 2px;
+  font-size: 12px;
+  color: white;
 }
