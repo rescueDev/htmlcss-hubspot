@@ -7,7 +7,7 @@
  }
 
 /* clearfix float */
-.header-container.clearfix {
+.clearfix:after {
   content: "";
   display: table;
   clear: both;
@@ -18,8 +18,10 @@
   width: 100%;
   margin: 0 auto;
   /* debug */
-  /* background-color: red; */
-  min-height: 500px;
+
+  background-color: red;
+  /* min-height: 500px; */
+
   /* fine debug */
  }
 
@@ -28,7 +30,7 @@ header {
   width: 100%
     /* debug */
   background-color: yellow;
-  min-height: 80px;
+  height: auto;
   /* border-bottom: 1px solid black; */
   /* fine-debug */
 }
@@ -41,7 +43,7 @@ header {
   margin-bottom: 0;
   /* debug */
   min-height: 80px;
-  background-color: lightblue;
+  background-color: #f4f9fd;
   /* fine-debug */
 }
 
@@ -55,7 +57,9 @@ header {
   margin-left: 10%;
   float: left;
   padding: 30px;
+  color: #9ba7b1;
 }
+
 
 /* struttura barra menu lato destro */
 .right-side {
@@ -75,18 +79,13 @@ header {
   text-decoration: none;
 }
 
-/* clearfix container nav */
-.nav-container.clearfix {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* barra navigazione */
 .nav-container {
+  float: left;
   width: 100%;
-    /* debug */
-  background-color: purple;
+  /* debug */
+  background-color: #ffffff;
   min-height: 80px;
   /* fine debug */
 }
@@ -95,7 +94,7 @@ header {
 .logo-container {
   margin-left: 10%;
   float: left;
-  /* padding: 30px; */
+  padding: 30px;
 }
 
 /* menu a dx di nav */
@@ -117,4 +116,28 @@ li a {
   font-size: 20px;
   margin-right: 2px;
   padding-right: 10px;
+}
+
+/* contenitore jumbotron */
+.section1-container {
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  max-width: 100%;
+  position: relative;
+  /* debug */
+  background-color: green;
+  min-height:695px;
+  /* fine debug */
+}
+
+/* banner jumbotron sezione 1 */
+.section1-container aside {
+  margin-left: 10%;
+  /* debug */
+  background-color: lightblue;
+  width: 20%;
+  min-height: 400px;
+  position: absolute;
+  top: 15%;
+  left: 0%;
 }
