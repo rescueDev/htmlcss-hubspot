@@ -210,8 +210,8 @@ aside #nota {
 
 /* parte centrale con bordi sx e dx */
 main {
-  margin-left:10%;
-  margin-right:10%;
+  /* margin-left:10%;
+  margin-right:10%; */
   /* debug */
   /* background-color: orange; */
   min-height: 600px;
@@ -220,7 +220,8 @@ main {
 /* sezione 2 */
 .sezione2 {
   margin-top: 20px;
-  max-width: 100%;
+  width: 80%;
+  margin: 20px auto;
   text-align: center;
   /* debug */
   background-color: #f4f9fd;
@@ -237,11 +238,9 @@ main {
 
 /* struttura sezione 2.1 */
 .sezione2-1 {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 30px;
+  margin: 20px auto;
   padding:40px;
-  max-width: 100%;
+  width: 80%;
   border:1px solid lightgrey;
   border-radius: 5px;
   /* debug */
@@ -307,10 +306,8 @@ main {
 
 /* sezione tre colonne */
 .three-columns {
-  max-width:100%;
-  margin-top: 40px;
-  margin-left: 10%;
-  margin-right: 10%;
+  width:80%;
+  margin:20px auto;
   /* debug */
   /* background-color: green; */
   min-height: 600px;
@@ -377,4 +374,11 @@ main {
   background-color: #fe775a;
   border-radius: 5px;
   padding: 15px;
+}
+
+.griglia-container {
+  width: 100%;
+  /* debug */
+  background-color: #00abb6;
+  min-height: 600px;
 }
