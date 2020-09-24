@@ -52,6 +52,13 @@ header {
   /* fine-debug */
 }
 
+/* clearfix initial bar */
+.initial-bar.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* stacco */
 #language::after {
   content: "  |";
@@ -98,6 +105,14 @@ header {
   min-height: 80px;
   /* fine debug */
 }
+
+/* clearfix float */
+.nav-container.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /* contenitore logo hubspot su nav */
 .logo-container {
@@ -235,18 +250,22 @@ main {
   /* fine-debug */
 }
 
+.sezione2-1.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* contenitore sottosezione sx */
 #left-crm {
   width: 20%;
   margin-left: 10%;
   margin-right: 10%;
-  /* padding: 25px; */
   float: left;
 }
 
 /* immagine crm */
 #left-crm img {
-  /* margin-top: 10px; */
   margin-bottom: 30px;
   width: 120px;
   height: 80px;
