@@ -213,7 +213,7 @@ main {
   margin-left:10%;
   margin-right:10%;
   /* debug */
-  /* background-color: orange; */
+  background-color: orange;
   min-height: 600px;
 }
 
@@ -302,8 +302,33 @@ main {
 
 /* sezione tre colonne */
 .three-columns {
+  max-width:100%;
   margin: 40px 10% 40px;
   /* debug */
   background-color: green;
   min-height: 600px;
+}
+
+/* clearfix */
+.three-columns.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* dimensione colonne hub */
+.hub-type {
+  width: calc(100% / 3);
+  float: left;
+  border:1px solid lightgrey;
+  text-align: center;
+  padding: 20px;
+  /* debug */
+}
+
+/* immagine hub marketing */
+.hub-type img {
+  width: 180px;
+  height: 90px;
+  margin-bottom: 20px;
 }
