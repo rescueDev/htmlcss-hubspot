@@ -52,12 +52,7 @@ header {
   /* fine-debug */
 }
 
-/* clearfix initial bar */
-.initial-bar.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 /* stacco */
 #language::after {
@@ -104,13 +99,6 @@ header {
   background-color: #ffffff;
   min-height: 80px;
   /* fine debug */
-}
-
-/* clearfix float */
-.nav-container.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 
@@ -249,12 +237,6 @@ main {
   /* fine-debug */
 }
 
-.sezione2-1.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* contenitore sottosezione sx */
 #left-crm {
   width: 20%;
@@ -311,13 +293,6 @@ main {
   /* debug */
   /* background-color: green; */
   min-height: 600px;
-}
-
-/* clearfix */
-.three-columns.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /* dimensione colonne hub */
@@ -409,13 +384,6 @@ main {
   /* debug */
   /* background-color: red; */
   min-height: 300px;
-}
-
-/* clearfix griglia statistiche */
-.griglia-statistiche.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /* quadrati griglia statistiche */
@@ -729,6 +697,7 @@ footer {
   min-height: 50px;
 }
 
+/* blocco copyright sx */
 #copyright-sx {
   float: left;
   max-width: 40%;
@@ -737,11 +706,13 @@ footer {
   font-size: 12px;
 }
 
+/* blocco legal float dx */
 #legal-dx {
   float: right;
   padding-top: 10px;
 }
 
+/* stile link legal footer */
 .legal a {
   text-decoration: none;
   color: lightblue;
