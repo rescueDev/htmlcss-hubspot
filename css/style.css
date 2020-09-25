@@ -486,7 +486,7 @@ main {
 
 /* struttura sottosezione4 */
 .sottosezione4 {
-  width: 60%;
+  width: 80%;
   margin:20px auto;
   /* debug */
   /* background-color: red; */
@@ -541,7 +541,7 @@ main {
 
 /* contenitore sottosezione5 */
 .sottosezione5 {
-  width: 80%;
+  width: 100%;
   margin: 20px auto;
   /* debug */
   /* background-color: yellow; */
@@ -623,6 +623,7 @@ footer {
 .subcontenitore-footer {
   width: 80%;
   margin: 20px auto;
+  /* padding: 20px; */
   /* debug */
   background-color: green;
   min-height: 300px;
@@ -632,8 +633,63 @@ footer {
 .colonne-footer {
   width: calc(100% / 4);
   float: left;
+  margin-top: 20px;
   /* debug */
-  background-color: red;
+  /* background-color: red; */
   min-height:250px;
-  border:1px solid black;
+  /* border:1px solid black; */
+}
+
+/* .colonne-footer ul {
+  columns: 1;
+} */
+
+/* stile testo e margini contenuto menu footer */
+.colonne-footer h4 {
+  font-weight: bold;
+  color: white;
+  margin:10px;
+}
+
+.colonne-footer ul li {
+  display: block;
+  margin: 10px;
+}
+
+.colonne-footer ul li a {
+  font-size: 14px;
+  color:lightblue;
+}
+
+#support-button {
+  margin:10px;
+  padding-top: 20px;
+  /* debug */
+}
+
+#support-button a {
+  font-size: 14px;
+  text-align: center;
+  padding: 8px;
+  color: #32495b ;
+  background-color: #dadee0;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* contenitore social button */
+.contenitore-social {
+  width: 100%;
+  margin:10px;
+  /* debug */
+  /* background-color: purple; */
+  min-height: 50px;
+}
+
+/* loghi social */
+.social-logo i {
+  float: left;
+  max-width: calc(100% / 5);
+  margin: 10px;
+  padding-top: 8px;
 }
