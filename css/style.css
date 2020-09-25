@@ -294,7 +294,7 @@ main {
 
 /* icone check */
 .fas.fa-check-circle {
-  margin-right: 10px;
+  /* margin-right: 10px; */
   color: #fe775a;
 }
 
@@ -338,6 +338,9 @@ main {
   margin-right: 30px;
 }
 
+.popular-feature {
+  text-align: center;
+}
 
 /* margini elementi dentro ogni hub */
 .three-columns h3 {
