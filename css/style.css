@@ -512,6 +512,7 @@ main {
 
 .sottosezione4 p {
   font-size: 14px;
+  line-height: 20px;
 }
 
 /* contenitore loghi customers */
@@ -529,11 +530,21 @@ main {
 .logo {
   width: calc(100% / 4);
   float: left;
-  margin-bottom:15px;
+  margin-bottom:20px;
 }
 
 /* proprietà immagini loghi */
 .logo img {
   max-width: 100px;
   max-height: 30px;
+}
+
+/* contenitore sottosezione5 */
+.sottosezione5 {
+  width: 80%;
+  margin: 20px auto;
+  /* debug */
+  background-color: yellow;
+  min-height:400px;
+
 }
