@@ -483,3 +483,12 @@ main {
   background-color: green;
   min-height: 600px;
 }
+
+/* struttura sottosezione4 */
+.sottosezione4 {
+  width: 60%;
+  margin:20px auto;
+  /* debug */
+  background-color: red;
+  min-height: 200px;
+}
