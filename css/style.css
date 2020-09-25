@@ -454,6 +454,7 @@ main {
   height: 40px;
 }
 
+/* stile e margini contenuto griglia */
 .stat h2 {
   font-size: 40px;
   font-weight: bold;
@@ -465,4 +466,20 @@ main {
   margin: 2px;
   font-size: 12px;
   color: white;
+}
+
+/* struttura ultima sezione pre-footer */
+.last-section {
+  /* debug */
+  background-color: white;
+  min-height: 600px;
+}
+
+/* contenitore sezione 4 */
+.container-sez4 {
+  width: 80%;
+  margin:20px auto;
+  /* debug */
+  background-color: green;
+  min-height: 600px;
 }
