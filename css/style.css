@@ -544,7 +544,65 @@ main {
   width: 80%;
   margin: 20px auto;
   /* debug */
-  background-color: yellow;
-  min-height:400px;
+  /* background-color: yellow; */
+  min-height:300px;
+}
 
+/* struttura sottosezione5-sx */
+.sottosezione5-sx {
+  width: 40%;
+  float: left;
+  /* debug */
+  min-height: 300px;
+}
+
+/* stili e margini testo sottosezione5-sx */.sottosezione5-sx h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sottosezione5-sx #description {
+  font-size: 16px;
+  margin-bottom:20px;
+  margin-left: 10px;
+}
+
+.GetHubspotFree-button {
+  max-width: 80%;
+  margin-top:40px;
+  margin-left: 10px;
+  padding-top: 20px;
+  /* debug */
+  min-height: 100px;
+  /* background-color: red; */
+}
+
+.GetHubspotFree-button  a {
+  font-size: 16px;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  background-color: #fe775a;
+  border-radius: 5px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.sottosezione5-sx #subfooter {
+  font-size: 12px;
+}
+
+#sottosezione5-dx {
+  width: 60%;
+  float: right;
+  text-align: right;
+  /* debug */
+  min-height: 300px;
+  /* background-color: purple; */
+}
+
+#sottosezione5-dx img {
+  max-width: 300px;
+  height: 250px;
 }
