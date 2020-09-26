@@ -739,6 +739,7 @@ footer {
 
 /* margine logo-copyright */
 #copyright-sx img {
+  margin-top: 5px;
   margin-bottom: 8px;
 }
 
