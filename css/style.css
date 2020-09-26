@@ -706,6 +706,7 @@ footer {
   min-height: 150px;
 }
 
+/* margine lista lingue footer */
 #language-nav ul {
   margin-bottom: 20px;
 }
@@ -734,6 +735,11 @@ footer {
   text-align: left;
   color: white;
   font-size: 12px;
+}
+
+/* margine logo-copyright */
+#copyright-sx img {
+  margin-bottom: 8px;
 }
 
 /* blocco legal float dx */
