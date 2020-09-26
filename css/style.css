@@ -236,11 +236,22 @@ main {
   /* fine-debug */
 }
 
+/* contenitore img cubo e titolo sezione2 */
+#cube {
+  margin-bottom: 20px;
+}
+
 /* immagine cubo rubik dimensioni */
-.sezione2 img {
+#cube img {
   margin-top: 10px;
   width: 200px;
   height: 150px;
+}
+
+/* font e stile testo sotto cubo */
+#cube h2 {
+  font-size: 30px;
+  font-weight: bolder;
 }
 
 /* struttura sezione 2.1 */
@@ -682,8 +693,8 @@ footer {
   max-width: calc(100% / 5);
   margin: 10px;
   padding-top: 8px;
+  color: lightgrey;
 }
-
 
 /* menu nav lingua */
 #language-nav {
