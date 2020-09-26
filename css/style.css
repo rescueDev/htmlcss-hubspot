@@ -78,14 +78,33 @@ header {
 
 }
 
-/* stile e struttura parte login menu */
-.right-side a {
-  margin:5px;
+
+/* button1 log in */
+.right-side #header-button1 {
+  margin:10px;
+  border:1px solid #fe775a;
+  border-radius: 5px;
+  background-color:white ;
+  color:#fe775a;
+  padding: 8px;
+  text-decoration: none;
+}
+
+/* button2 header */
+.right-side #header-button2 {
+  margin:10px;
   border-radius: 5px;
   background-color: #fe775a;
   color:white;
   padding: 8px;
   text-decoration: none;
+}
+
+/* icona ricerca */
+.right-side #search-icon {
+  color: lightblue;
+  background-color: none;
+  margin: 10px;
 }
 
 
