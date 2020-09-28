@@ -52,7 +52,10 @@ header {
   /* fine-debug */
 }
 
-
+header a {
+  text-decoration: none;
+  color: #33475b;
+}
 
 /* stacco */
 #language::after {
