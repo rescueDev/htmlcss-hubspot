@@ -34,7 +34,7 @@ body {
 header {
   width: 100%
     /* debug */
-  background-color: yellow;
+  /* background-color: yellow; */
   height: auto;
   /* border-bottom: 1px solid black; */
   /* fine-debug */
@@ -158,7 +158,7 @@ li a {
   max-width: 100%;
   position: relative;
   /* debug */
-  background-color: green;
+  /* background-color: green; */
   min-height:695px;
   /* fine debug */
 }
