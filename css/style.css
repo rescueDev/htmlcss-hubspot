@@ -343,8 +343,17 @@ main {
   margin-right: 30px;
 }
 
-.popular-feature {
-  text-align: center;
+/* margine da check feature */
+.popular-feature li i {
+  margin-right: 8px;
+}
+
+/* proprietà lista feature */
+.popular-feature li {
+  display: block;
+  margin-left: 10px;
+  font-size: 14px;
+  text-align: left;
 }
 
 /* margini elementi dentro ogni hub */
