@@ -359,10 +359,13 @@ main {
 /* margini elementi dentro ogni hub */
 .three-columns h3 {
   margin:10px;
+  font-size:20px;
 }
 
+/* proprietà paragrafi dentro ogni colonna */
 .three-columns p {
   margin:20px;
+  line-height: 30px;
 }
 
 .three-columns hr {
@@ -382,8 +385,8 @@ main {
 /* Learn more button */
 .three-columns a {
   display: block;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
   margin-top: 100px;
   text-decoration: none;
   font-size: 16px;
